@@ -99,7 +99,7 @@ export default function ForgotPassword() {
                     Forgot Password?
                   </h1>
                   <p className="text-slate-500 font-medium">
-                    Please enter the email associated with your Doksanlar Bank
+                    Please enter the email associated with your Nexus-Finance
                     account.
                   </p>
                 </div>
@@ -119,7 +119,7 @@ export default function ForgotPassword() {
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
                         className="w-full pl-12 pr-4 py-5 bg-slate-50 border border-slate-200 rounded-2xl text-slate-950 font-medium focus:ring-2 focus:ring-blue-600/20 focus:border-blue-600 focus:bg-white outline-none transition-all"
-                        placeholder="e.g. name@doksanlar.com"
+                        placeholder="e.g. name@Nexus-Finance.com"
                       />
                     </div>
                   </div>
